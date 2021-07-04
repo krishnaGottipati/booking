@@ -16,7 +16,7 @@ public class TestCase1 extends Base {
 		Flights.pickDateFromCalander("DepartureFromToday:20");
 		Flights.pickDateFromCalander("ReturnFromToday:45");
 		Flights.clickOnSearchFlights();
-		Flights.getPricesList();
+		Flights.getPricesList();  //Pick the prices and select the maximum one
 		assertEquals(Flights.continueButtonIsDisplayed(), true);
 
 	}
