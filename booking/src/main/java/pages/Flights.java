@@ -20,7 +20,7 @@ public class Flights {
 		Flights.driver = driver;
 	}
 
-	/* ---- Repositories on Flights page  --- */	
+	/* ---- Repositories on Flights page  -------*/	
 	static By flights = By.xpath("//span[normalize-space()='Flights']");
 	static By from = By.xpath("//div[@id='react-select-2--value']//input[@role='combobox']");
 	static By searchFlights = By.xpath("//input[@id='airSubmitButtonId']");
